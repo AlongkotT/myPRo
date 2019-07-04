@@ -1,0 +1,23 @@
+*** Variables ***
+#Database
+${Port}             3306
+${Username}         efinFP
+${DatabaseHost}     192.168.241.72
+${Password}         efinFP
+
+#Webservice
+${IPwebservice}	    10.88.40.96
+
+#Redis
+${IPRedis}	    192.168.68.26
+${PortRedis}	    6380
+
+#Cassandra
+${IPCassandra}	    192.168.241.74
+${PortCassandra}    9042
+
+#Email
+${IPEmail}	    10.88.0.9
+
+#OTP
+${urlOTP}	    http://www.thaibulksms.com/sms_api.php
