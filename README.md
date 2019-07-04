@@ -3,9 +3,18 @@
 ***This code for python2.7***
 
 install library ,pls
-pip install robotframework
-pip install --upgrade RESTinstance
-pip install -U robotframework-databaselibrary
-pip install -U robotframework-redislibrary
-pip install robotframework-cassandracqllibrary
-pip install robotframework-imaplibrary
+
+<ul>
+<li>pip install robotframework</li>
+  <li>pip install --upgrade RESTinstance</li>
+  <li>pip install -U robotframework-databaselibrary</li>
+  <li>pip install -U robotframework-redislibrary</li>
+  <li>pip install robotframework-cassandracqllibrary</li>
+  <li>pip install robotframework-imaplibrary</li>
+</ul>
+
+
+
+
+
+
