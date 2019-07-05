@@ -11,6 +11,7 @@ install library ,pls
   <li>pip install -U robotframework-redislibrary</li>
   <li>pip install robotframework-cassandracqllibrary</li>
   <li>pip install robotframework-imaplibrary</li>
+  <li>pip install PyMySQL</li>
 </ul>
 
 
