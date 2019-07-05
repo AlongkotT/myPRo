@@ -5,7 +5,7 @@ Library         REST
 Library         BuiltIn
 Library         Process
 Library         DatabaseLibrary
-#Library         RedisLibrary
+Library         RedisLibrary
 Library         CassandraCQLLibrary
 Library         ImapLibrary
 
