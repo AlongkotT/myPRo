@@ -13,7 +13,7 @@ Resource        config.txt
 
 *** Test Cases ***
 Server Connection Status
-    ${result}           Run Process         ping ${IPwebservice}   shell=True 
+    ${result}           Run Process         ping -c 6 ${IPwebservice}   shell=True 
     Log                 all output: ${result.stdout}
     Should Contain      ${result.stdout}    0% loss  
 
