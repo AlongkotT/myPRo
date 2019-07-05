@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     Test with SOAP 
+Documentation     Test status 
 
 Library         REST
 Library         BuiltIn
