@@ -28,7 +28,7 @@ Cassandra Status
     Disconnect From Cassandra
 
 Email Status
-    ${result}           Run Process         ping ${IPEmail}   shell=True 
+    ${result}           Run Process         ping -c 6 ${IPEmail}   shell=True 
     Log                 all output: ${result.stdout}
     Should Contain      ${result.stdout}    0% loss 
     # Open Mailbox    host=${IPEmail}    user=praiwan@efinancethai.com    password=123456  is_secure=False
