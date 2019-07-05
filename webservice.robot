@@ -15,7 +15,7 @@ Resource        config.txt
 Server Connection Status
     ${result}           Run Process         ping -c 6 ${IPwebservice}   shell=True 
     Log                 all output: ${result.stdout}
-    Should Contain      ${result.stdout}    0% loss  
+    Should Contain      ${result.stdout}    time=  
 
 Database Status
     Connect to Database         pymysql   lumpsum       ${Username}     ${Password}    ${DatabaseHost}    ${Port}
@@ -30,7 +30,7 @@ Cassandra Status
 Email Status
     ${result}           Run Process         ping -c 6 ${IPEmail}   shell=True 
     Log                 all output: ${result.stdout}
-    Should Contain      ${result.stdout}    0% loss 
+    Should Contain      ${result.stdout}    time= 
     # Open Mailbox    host=${IPEmail}    user=praiwan@efinancethai.com    password=123456  is_secure=False
     # Close Mailbox
 
