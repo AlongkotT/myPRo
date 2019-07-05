@@ -8,6 +8,7 @@ install library ,pls
 <li>pip install robotframework</li>
   <li>pip install --upgrade RESTinstance</li>
   <li>pip install -U robotframework-databaselibrary</li>
+  <li>pip install redis</li>
   <li>pip install -U robotframework-redislibrary</li>
   <li>pip install robotframework-cassandracqllibrary</li>
   <li>pip install robotframework-imaplibrary</li>
