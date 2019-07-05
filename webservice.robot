@@ -20,8 +20,8 @@ Server Connection Status
 Database Status
     Connect to Database         pymysql   lumpsum       ${Username}     ${Password}    ${DatabaseHost}    ${Port}
 
-Redis Status
-    ${redis_conn}               Connect To Redis        ${IPRedis}      ${PortRedis}     
+#Redis Status
+#    ${redis_conn}               Connect To Redis        ${IPRedis}      ${PortRedis}     
 
 Cassandra Status
     Connect To Cassandra        ${IPCassandra}          ${PortCassandra}
